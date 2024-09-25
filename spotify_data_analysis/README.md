@@ -2,7 +2,7 @@
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
-![Spotify Logo]()
+![Spotify Logo](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/spotify_logo.png)
 
 ## Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
@@ -232,7 +232,7 @@ To improve query performance, we carried out the following optimization process:
         - Execution time (E.T.): **16.145 ms**
         - Planning time (P.T.): **2.012 ms**
     - Below is the **screenshot** of the `EXPLAIN` result before optimization:
-      ![EXPLAIN Before Index]()
+      ![EXPLAIN Before Index](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/explain_befor_index.png)
 
 - **Index Creation on the `artist` Column**
     - To optimize the query performance, we created an index on the `artist` column. This ensures faster retrieval of rows where the artist is queried.
@@ -246,13 +246,13 @@ To improve query performance, we carried out the following optimization process:
         - Execution time (E.T.): **0.150 ms**
         - Planning time (P.T.): **2.O51 ms**
     - Below is the **screenshot** of the `EXPLAIN` result after index creation:
-      ![EXPLAIN After Index]()
+      ![EXPLAIN After Index](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/explain_after_index.png)
 
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     - **Graph view** shows the significant drop in both execution and planning times:
-      ![Performance Graph]()
-      ![Performance Graph]()
+      ![Performance Graph](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/spotify_graphical%20view%201.png)
+      ![Performance Graph](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/spotify_graphical%20view%202.png)
 
 This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
 ---
@@ -260,7 +260,7 @@ This optimization shows how indexing can drastically reduce query time, improvin
 ## Technology Stack
 - **Database**: PostgreSQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
+- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation), VS code( code editor)
 
 ## How to Run the Project
 1. Install PostgreSQL and pgAdmin (if not already installed).I used VScode as code editor by connecting postgress using SQL Tools extension.  
