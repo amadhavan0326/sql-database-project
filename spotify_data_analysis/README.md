@@ -258,6 +258,7 @@ To improve query performance, we carried out the following optimization process:
       ![Performance Graph](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/spotify_graphical%20view%201.png)
 
 This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
+
 ---
 
 ## Visualize the Data using Power BI
@@ -268,37 +269,37 @@ We created a Power BI dashboard to visualize the analysis results. The key visua
 
 This table lists all tracks that have surpassed 1 billion streams on Spotify. It provides insights into the most popular songs in the dataset, offering a quick reference to the top-performing music tracks based on stream count.
 
-![Table]()
+![Table](https://github.com/amadhavan0326/sql-database-project/blob/c257d18947d252c7d2e2077f7bee825949b864dc/spotify_data_analysis/tracks_with_over_1bn_streams.png)
 
 ### 2.Average Danceability by Album (Column Chart):
 
 The column chart shows the average danceability score for each album, providing a visual comparison across different albums. Danceability scores indicate how suitable tracks are for dancing, which can highlight albums designed with energetic and rhythmic music.
 
-![Column Chart]()
+![Column Chart](https://github.com/amadhavan0326/sql-database-project/blob/c257d18947d252c7d2e2077f7bee825949b864dc/spotify_data_analysis/Average_danceability_by_album.png)
 
 ### 3.Top 5 Tracks by Energy (Bar Chart):
 
 This bar chart highlights the five tracks with the highest energy levels in the dataset. Energy measures the intensity and activity of a song, helping users quickly identify the most energetic and dynamic tracks.
 
-![Bar Charty]()
+![Bar Charty](https://github.com/amadhavan0326/sql-database-project/blob/c257d18947d252c7d2e2077f7bee825949b864dc/spotify_data_analysis/top_5_tracks_by_enegry.png)
 
-### 4.Total Views by Album (Bar Chart):
+### 4.Total tracks by Artist (Bar Chart):
 
-This bar chart visualizes the total number of views across all tracks in each album. It gives a clear understanding of which albums have the most visibility or popularity based on view count, helping to assess an album's overall impact.
+This bar chart displays the total number of tracks produced by each artist in the dataset. It helps in identifying the most prolific artists, giving a sense of their contribution to the overall collection of music.
 
-![Bar Chart]()
+![Bar Chart](https://github.com/amadhavan0326/sql-database-project/blob/c257d18947d252c7d2e2077f7bee825949b864dc/spotify_data_analysis/total_tracks_by_each_artist.png)
 
 ### 5.Cumulative Likes by Views (Line Chart):
 
 The line chart represents the cumulative likes for tracks as ordered by their view counts. This visual shows how engagement (likes) scales with track popularity (views), offering insights into user interaction trends with popular tracks.
 
-![Line Chart]()
+![Line Chart](https://github.com/amadhavan0326/sql-database-project/blob/c257d18947d252c7d2e2077f7bee825949b864dc/spotify_data_analysis/cumulative_likes_vs_views.png)
 
 ### 6.Tracks Streamed More on Spotify than YouTube (Table):
 
 This table lists the tracks that have more streams on Spotify than on YouTube. It allows for a direct comparison of platform performance, showing which tracks are more popular on Spotify relative to YouTube.
 
-![able]()
+![Table](https://github.com/amadhavan0326/sql-database-project/blob/c257d18947d252c7d2e2077f7bee825949b864dc/spotify_data_analysis/tracks_streamed_more_on_spotify_than_youtube.png)
 
 The dashboard is designed to showcase only the essential visuals, fitting efficiently within a single canvas for a clean, impactful presentation.
 
