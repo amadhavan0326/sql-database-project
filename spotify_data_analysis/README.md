@@ -252,18 +252,65 @@ To improve query performance, we carried out the following optimization process:
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     - **Graph view** shows the significant drop in both execution and planning times:
     
-        **Before**  
+        **Before Optimization:**  
       ![Performance Graph](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/spotify_graphical%20view%202.png)
-        **After**
+        **After Optimization:**
       ![Performance Graph](https://github.com/amadhavan0326/sql-database-project/blob/461ff927303a42d8f76f79cc82a17d5d8d533809/spotify_data_analysis/spotify_graphical%20view%201.png)
 
 This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
 ---
 
+## Visualize the Data using Power BI
+
+We created a Power BI dashboard to visualize the analysis results. The key visuals include:
+
+### 1.Table of Tracks with >1 Billion Streams:
+
+This table lists all tracks that have surpassed 1 billion streams on Spotify. It provides insights into the most popular songs in the dataset, offering a quick reference to the top-performing music tracks based on stream count.
+
+![Table]()
+
+### 2.Average Danceability by Album (Column Chart):
+
+The column chart shows the average danceability score for each album, providing a visual comparison across different albums. Danceability scores indicate how suitable tracks are for dancing, which can highlight albums designed with energetic and rhythmic music.
+
+![Column Chart]()
+
+### 3.Top 5 Tracks by Energy (Bar Chart):
+
+This bar chart highlights the five tracks with the highest energy levels in the dataset. Energy measures the intensity and activity of a song, helping users quickly identify the most energetic and dynamic tracks.
+
+![Bar Charty]()
+
+### 4.Total Views by Album (Bar Chart):
+
+This bar chart visualizes the total number of views across all tracks in each album. It gives a clear understanding of which albums have the most visibility or popularity based on view count, helping to assess an album's overall impact.
+
+![Bar Chart]()
+
+### 5.Cumulative Likes by Views (Line Chart):
+
+The line chart represents the cumulative likes for tracks as ordered by their view counts. This visual shows how engagement (likes) scales with track popularity (views), offering insights into user interaction trends with popular tracks.
+
+![Line Chart]()
+
+### 6.Tracks Streamed More on Spotify than YouTube (Table):
+
+This table lists the tracks that have more streams on Spotify than on YouTube. It allows for a direct comparison of platform performance, showing which tracks are more popular on Spotify relative to YouTube.
+
+![able]()
+
+The dashboard is designed to showcase only the essential visuals, fitting efficiently within a single canvas for a clean, impactful presentation.
+
+
+
+
+---
+
 ## Technology Stack
 - **Database**: PostgreSQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation), VS code( code editor)
+- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation), VS code( code editor), Power BI
 
 ## How to Run the Project
 1. Install PostgreSQL and pgAdmin (if not already installed).I used VScode as code editor by connecting postgress using SQL Tools extension.  
@@ -271,13 +318,14 @@ This optimization shows how indexing can drastically reduce query time, improvin
 3. Insert the sample data into the respective tables.
 4. Execute SQL queries to solve the listed problems.
 5. Explore query optimization techniques for large datasets.
+6. Load the Power BI .pbix file to view the dashboard.
 
 ---
 
 ## Next Steps
-- **Visualize the Data**: Use a data visualization tool like **Tableau** or **Power BI** to create dashboards based on the query results.
 - **Expand Dataset**: Add more rows to the dataset for broader analysis and scalability testing.
 - **Advanced Querying**: Dive deeper into query optimization and explore the performance of SQL queries on larger datasets.
+- **Performance Tuning**: Further optimize SQL queries on larger datasets.
 
 ---
 
